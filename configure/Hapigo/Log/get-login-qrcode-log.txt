@@ -1,0 +1,2 @@
+2025-12-09 15:50:25: End fetch login qrcode with error: Unknown
+2025-12-09 15:50:22: Start fetch login qrcode at url: https://login.hapigo.com/getLoginQR

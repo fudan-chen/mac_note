@@ -1,0 +1,10 @@
+{
+   "ignorePaths": [""],
+   "ignorePackagePaths": [""],
+   "ignoreFolders": ["node_modules"],
+   "ignorePackages": ["node_modules"],
+   "ignorePathExtensions": [""],
+   "ignoreFiles": [""],
+   "ignoreKeywords": [""],
+   "indexVolumes": [""]
+}

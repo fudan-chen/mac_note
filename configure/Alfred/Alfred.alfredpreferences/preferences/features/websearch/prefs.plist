@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>68B275DB-843F-4ED7-AFBB-B8D472278A2A</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>ytb</string>
+			<key>text</key>
+			<string>Open Youtube</string>
+			<key>url</key>
+			<string>https://www.youtube.com/</string>
+		</dict>
+		<key>D1235D4E-C82A-4658-A6B7-C32284123241</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>bb</string>
+			<key>text</key>
+			<string>Search BB for '{query}'</string>
+			<key>url</key>
+			<string>https://search.bilibili.com/all?keyword={query}</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
