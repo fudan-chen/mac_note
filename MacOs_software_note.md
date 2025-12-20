@@ -56,7 +56,7 @@ brew install --cask iterm2  # iTerm2 终端工具
 ### Raycast（效率启动器）
 
 - **官网：** [https://www.raycast.com/](https://www.raycast.com/)
-- **配置文件：** [.rayconfig](configure/Raycast%202025-12-10%2015.48.34.rayconfig) `configure/Raycast 2025-12-10 15.48.34.rayconfig`
+- **配置文件：** [`.rayconfig`文件](configure/Raycast%202025-12-10%2015.48.34.rayconfig) `configure/Raycast 2025-12-10 15.48.34.rayconfig`
 
 #### 配置导出（旧电脑）
 
@@ -78,7 +78,7 @@ brew install --cask iterm2  # iTerm2 终端工具
 
 #### 配置导入
 
-目前没有一键导入功能，需要手动将配置文件夹 `configure/Hapigo/` 复制到以下位置：
+目前没有一键导入功能，需要手动将配置文件夹 [`configure/Hapigo/`](configure/Hapigo) 复制到以下位置：
 
 ```
 ~/Library/Application Support/Hapigo
