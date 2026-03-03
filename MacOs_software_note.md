@@ -797,6 +797,30 @@ sudo killall -1 installd
 
 > ⚠️ **注意：** 通过"活动监视器"（Activity Monitor）点击顶部的 X 按钮选择 **强制退出** 是不起作用的，必须使用上述命令
 
+### Mac vscode花屏问题解决
+
+#### 解决办法: [代码先锋网](https://www.codeleading.com/article/70266594815/)
+
+需要关闭硬件加速：
+
+```bash
+cmd + shift + P
+```
+
+打开命令面板，找到
+
+```bash
+Preferences: Configure Runtime Arguments
+```
+
+我因为`cmd + shift + P`快捷键被占用了，所以不知道怎么找这个配置，使用双`shift`也搜不到， 后来查到按`F1`也可以打开命令面板，然后在里面搜`Preferences: Configure Runtime Arguments`，然后再添加如下配置。
+
+```json
+"disable-hardware-acceleration": true
+```
+
+配置完以后，重启vscode就可以了
+
 ---
 
 ## 📝 总结
